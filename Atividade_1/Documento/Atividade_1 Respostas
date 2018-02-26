@@ -1,0 +1,35 @@
+Métodos Avançados de Programação – Atividade 1 Respostas - Wesley Gonzaga Alvese
+
+    1.  A etapa de análise é realizado a escolha de ferramentas adequadas que atendam as necessidades do projeto a ser executado, qual arquitetura será utilizada, qual metodologia será aplicada, todo um preparativo para iniciar a etapa de construção, já na etapa de projeto, é todo o fluxo de construção do software;
+
+    2. Vantagens do uso de programação orientada a objetos para o desenvolvimento de software:
+        1. Tipagem; 
+        2. Reutilização de códigos;
+        3. Ganho de padrões na modelagem de um ambiente;
+        4. Abstração.
+
+    3. São requisitos funcionais são regras para o funcionamento software; O levantamento de requisitos funcionais em um projeto, é fundamental para descrever como a aplicação deve funcionar, quais regras de negócios, qual fluxo funcional que o software deve ter;
+
+    4. Resposta em projetos;
+
+    5. Iterator é uma interface para estabelecer um comportamento para as estruturas de sequência;
+
+    6. Resposta em projetos;
+
+    7. O return é utilizado em métodos para indicar a resposta do fluxo de uma determinada operação, já o throw, é  utilizado para interromper o fluxo de operação, por causa de algum erro esperado ou não;
+
+    8. Reposta em projetos;
+
+    9. A vantagem do uso do polimorfismo é garantir o mesmo funcionamento para vários objetos que herdam de uma classe superior a sua estrutura ou implementação, a desvantagem de seu uso é a sua complexidade por exigir do programador um grande nível de abstração;
+
+    10. Polimorfismo com interface é garantir a assinatura dos métodos deixando a responsabilidade da implementação nas classes filhas, garantindo assim que todas as herdeiras terão os mesmos métodos mas com o comportamento diferente, já a utilização de classes abstratas para o polimorfismo,pode possuir a mesma lógica, já que a única diferença é que na classe abstrata pode possuir a implementação nos métodos, a desvantagem de seu uso para polimorfismo é só poder implementar apenas uma classe abstrata por classe;
+
+    11. Herança de tipo é por meio de interfaces e, herança de implementação é por meio de classes normais ou abstratas;
+
+    12. Forte acoplamento indica que a classe possui vários métodos que podem não fazer parte de sua função, a vantagem é que tudo está em um lugar só, a desvantagem é a baixa coesão já que a classe terá muitos métodos aumentando sua complexidade; 
+
+    13. Ao realizar uma decomposição de um método seu fluxo é segmentado em métodos menores que possuem funcionalidades exclusivas, diminuindo a complexidade, nesse processo acaba escondendo partes do fluxo principal que não são necessários para o entendimento do método;
+
+    14. Atribuir mais responsabilidades a uma única entidade é o mesmo que na vida real, quando estamos com muitas responsabilidades ficamos sobrecarregados, baixando o desempenho e dificultando a manutenção.
+
+    15. Modelar roles é determinar regras nos fluxos do software, aplicando nas funções níveis de autoridades, fazendo isso por abstrações será necessário uma estrutura diferente para cada herdeiro, e por meio de composição a complexidade de controle e logística das regras é determinado a uma única classe intermediatora.
