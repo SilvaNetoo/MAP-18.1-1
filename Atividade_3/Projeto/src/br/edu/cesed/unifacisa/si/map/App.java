@@ -1,41 +1,3 @@
-//package br.edu.cesed.unifacisa.si.map;
-//
-//import br.edu.cesed.unifacisa.si.map.Parameterized.Car;
-//import br.edu.cesed.unifacisa.si.map.Parameterized.CarFactory;
-//import br.edu.cesed.unifacisa.si.map.Parameterized.Palio;
-//import br.edu.cesed.unifacisa.si.map.Parameterized.Siena;
-//import br.edu.cesed.unifacisa.si.map.Parameterized.Type;
-//import br.edu.cesed.unifacisa.si.map.abstractions.ContaBancaria;
-//import br.edu.cesed.unifacisa.si.map.component.GeradorDeHistorico;
-//import br.edu.cesed.unifacisa.si.map.domain.ContaCorrente;
-//import br.edu.cesed.unifacisa.si.map.exceptions.ValorInvalidoException;
-//
-///**
-// * 
-// * A classe App criada no pacote br.edu.cesed.unifacisa.si.map para o projeto Atividade_1;
-// * 
-// * Fluxo de execução da atividade de MAP 2018.1 das questÃµes 4, 6 e 8;
-// * 
-// * @author Criada por Wesley Alves em 26 de fev de 2018.
-// */
-//public class App {
-//
-//	public static void main(String[] args) throws ValorInvalidoException {
-//		
-//		ContaBancaria contaNova = new ContaCorrente(201015,11562345,"12232145678");
-//		
-//		contaNova.deposito(100);
-//		
-//		System.out.println(GeradorDeHistorico.geraHistorico(contaNova));
-//		
-//		contaNova.saque(50);
-//		
-//		System.out.println(GeradorDeHistorico.geraHistorico(contaNova));
-//
-//	}
-//
-//}
-
 package br.edu.cesed.unifacisa.si.map;
 
 /**
@@ -93,12 +55,14 @@ class Parameterized {
 			}
 		}
 	}
+
+	// Implementação complementar ao exemplo anterior 
+	// Criada por Wesley Alves em 8 de mar de 2018.
 	
-	// Implementação complementar ao exemplo anterior.
 	/**
 	 * 
-	 * A classe Hb20 criada no pacote br.edu.cesed.unifacisa.si.map 
-	 * para o projeto Atividade_4;
+	 * A classe Hb20 criada no pacote br.edu.cesed.unifacisa.si.map para o projeto
+	 * Atividade_4;
 	 * 
 	 * @author Criada por Wesley Alves em 8 de mar de 2018
 	 */
@@ -107,10 +71,11 @@ class Parameterized {
 			return "Hb20. Hatch from Hyundai";
 		}
 	}
+
 	/**
 	 * 
-	 * A classe Creta criada no pacote br.edu.cesed.unifacisa.si.map 
-	 * para o projeto Atividade_3;
+	 * A classe Creta criada no pacote br.edu.cesed.unifacisa.si.map para o projeto
+	 * Atividade_3;
 	 * 
 	 * @author Criada por Wesley Alves em 8 de mar de 2018
 	 */
@@ -119,8 +84,15 @@ class Parameterized {
 			return "Creta. Sedan from Hyundai";
 		}
 	}
-	
-	private static class Hyundai extends CarFactory{
+
+	/**
+	 * 
+	 * A classe Hyundai criada no pacote br.edu.cesed.unifacisa.si.map para o
+	 * projeto Atividade_3
+	 * 
+	 * @author Criada por Wesley Alves em 8 de mar de 2018
+	 */
+	private static class Hyundai extends CarFactory {
 
 		@Override
 		Car createCar(Type type) {
@@ -133,14 +105,15 @@ class Parameterized {
 				throw new IllegalArgumentException();
 			}
 		}
-		
+
 	}
+
 	public static void main(String[] args) {
 		Parameterized.CarFactory fiat = new Parameterized.Fiat();
 		System.out.println("Fiat factory creates " + fiat.createCar(Type.HATCH).showInfo());
 		System.out.println("Fiat factory creates " + fiat.createCar(Type.SEDAN).showInfo());
-		
-		//Implementação do exemplo de fábrica da hyundai.
+
+		// Implementação do exemplo de fábrica da hyundai.
 		Parameterized.CarFactory hyundai = new Parameterized.Hyundai();
 		System.out.println("Hyundai factory creates " + hyundai.createCar(Type.HATCH).showInfo());
 		System.out.println("Hyundai factory creates " + hyundai.createCar(Type.SEDAN).showInfo());
