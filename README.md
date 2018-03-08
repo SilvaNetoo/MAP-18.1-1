@@ -7,6 +7,7 @@ Repositório criado por *Wesley G. Alves* e utilizado na disciplina de [Métodos
 | Atividade | Local | Data |
 | ------ | ------ | ------ |
 |   1º    | [Atividade_1](https://github.com/wesleygonalv/MAP-18.1/tree/master/Atividade_1) | 26/02 |
+|   2º    | [Atividade_2](https://github.com/wesleygonalv/MAP-18.1/tree/master/Atividade_2) | 06/03 |
 
 Estrutura do repositório:
 
