@@ -9,6 +9,8 @@ Repositório criado por *Wesley G. Alves* e utilizado na disciplina de [Métodos
 |   1º    | [Atividade_1](https://github.com/wesleygonalv/MAP-18.1/tree/master/Atividade_1) | 26/02 | Abstract | * | * |
 |   2º    | [Atividade_2](https://github.com/wesleygonalv/MAP-18.1/tree/master/Atividade_2) | 06/03 | Composição | * |   |
 |   3º    | [Atividade_3](https://github.com/wesleygonalv/MAP-18.1/tree/master/Atividade_3) | 07/03 | Factory Method | * |   |
+|   4º    | [Atividade_4](https://github.com/wesleygonalv/MAP-18.1/tree/master/Atividade_4) | 13/03 | Sigleton | * |   |
+|   5º    | [Atividade_5](https://github.com/wesleygonalv/MAP-18.1/tree/master/Atividade_5) | 13/03 | Abstract Factory | * |   |
 
 Estrutura do repositório:
 
